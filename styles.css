@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(120deg, #89f7fe, #66a6ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.quote-box {
+  background: #fff;
+  max-width: 500px;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.quote-icon {
+  font-size: 3rem;
+  color: #66a6ff;
+}
+
+#quote {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #333;
+}
+
+#author {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+button {
+  background: #66a6ff;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #4d90fe;
+}
